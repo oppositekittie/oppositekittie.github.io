@@ -1,8 +1,3 @@
-//anime({
-//    targets: 'div.shadow',
-//   translateX: 10, 
-//});
-
 dragElement(document.getElementById("boxes"));
 
 function dragElement(elmnt) {
@@ -55,10 +50,4 @@ function cock() {
     opacity: [1, 0],
     easing: 'easeInOutSine'
   })
-  //var x = document.getElementById("boxes");
-  //if (x.style.display === "none") {
-  //  x.style.display = "block";
-  //} else {
-  //  x.style.display = "none";
-  //}
 }
